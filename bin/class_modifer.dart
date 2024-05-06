@@ -24,6 +24,7 @@ mixin Teacher {
   }
 }
 class Student extends Person with Teacher{
+  @override
   void sayHello(){
     print('Hello Student');
   }
